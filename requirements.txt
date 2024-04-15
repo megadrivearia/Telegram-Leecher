@@ -10,7 +10,7 @@ opencv-python
 Pillow
 psutil
 pytz
-git+https://github.com/Masterolic/pyrogram.git
+git+https://github.com/Masterolic/pyrofork.git
 requests
 tgcrypto
 uvloop
