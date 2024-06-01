@@ -10,7 +10,7 @@ opencv-python
 Pillow
 psutil
 pytz
-pyrofork
+pyro
 requests
 tgcrypto
 uvloop
