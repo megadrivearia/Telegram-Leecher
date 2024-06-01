@@ -7,10 +7,11 @@ httpx
 moviepy
 natsort
 opencv-python
+pyrob
 Pillow
 psutil
 pytz
-PyroTron
+pyrogram-dev
 requests
 tgcrypto
 uvloop
