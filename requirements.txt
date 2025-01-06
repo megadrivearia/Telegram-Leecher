@@ -10,7 +10,7 @@ opencv-python
 Pillow
 psutil
 pytz
-pyrogram==2.0.80
+pyroblack==2.3.82
 requests
 tgcrypto
 uvloop
