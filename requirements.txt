@@ -4,13 +4,12 @@ google-auth-httplib2
 google-auth-oauthlib
 GPUtil
 httpx
-moviepy
 natsort
 opencv-python
 Pillow
 psutil
 pytz
-pyroblack==2.4.1
+pyroblack==2.4.2
 requests
 tgcrypto
 uvloop
