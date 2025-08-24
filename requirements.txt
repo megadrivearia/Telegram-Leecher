@@ -4,7 +4,7 @@ google-auth-httplib2
 google-auth-oauthlib
 GPUtil
 httpx
-moviepy==2.2.1
+moviepy
 natsort
 opencv-python
 Pillow
