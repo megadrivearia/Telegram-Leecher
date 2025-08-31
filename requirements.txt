@@ -1,19 +1,29 @@
-asyncio
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
-GPUtil
-httpx
-moviepy
-natsort
-opencv-python
-Pillow
-psutil
-pytz
-pyrogram
-requests
-tgcrypto
-uvloop
-yt_dlp
-pymegatools
+# Telegram client
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# Downloaders
+yt-dlp==2025.01.08
+aria2p==0.12.0
+gdown==5.2.0
+
+# System helpers
+ffmpeg-python==0.2.0
 python-magic==0.4.27
+aiofiles==23.2.1
+tqdm==4.66.5
+requests==2.32.3
+urllib3==2.2.3
+certifi==2025.6.2
+
+# Google Drive API support (optional)
+google-auth==2.35.0
+google-auth-oauthlib==1.2.1
+google-api-python-client==2.149.0
+
+# Environment & notebook friendly
+python-dotenv==1.0.1
+nest_asyncio==1.6.0
+
+# Optional speedup for Linux (safe-guarded in code)
+uvloop==0.21.0
