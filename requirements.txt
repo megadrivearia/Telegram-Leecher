@@ -16,14 +16,14 @@ requests==2.32.3
 urllib3==2.2.3
 certifi==2025.6.2
 
-# Google Drive API support (optional)
+# Google Drive API support (if you mirror to Drive)
 google-auth==2.35.0
 google-auth-oauthlib==1.2.1
 google-api-python-client==2.149.0
 
-# Environment & notebook friendly
+# Environment & config
 python-dotenv==1.0.1
 nest_asyncio==1.6.0
 
-# Optional speedup for Linux (safe-guarded in code)
+# Optional speedups
 uvloop==0.21.0
