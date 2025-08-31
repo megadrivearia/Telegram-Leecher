@@ -16,6 +16,7 @@ USER_ID = 0  # @param {type: "integer"}
 DUMP_ID = 0  # @param {type: "integer"}
 
 
+import patch_moviepy
 import subprocess, time, json, shutil, os
 from IPython.display import clear_output
 from threading import Thread
