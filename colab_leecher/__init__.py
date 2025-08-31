@@ -1,11 +1,7 @@
 # copyright 2023 © Xron Trix | https://github.com/Xrontrix10
 
 import logging, json
-try:
-    from uvloop import install
-    install()
-except ImportError:
-    pass
+from uvloop import install
 from pyrogram.client import Client
 
 # Read the dictionary from the txt file
