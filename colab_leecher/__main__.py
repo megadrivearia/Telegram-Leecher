@@ -1,6 +1,6 @@
 # copyright 2023 © Xron Trix | https://github.com/Xrontrix10
 
-
+import patch_moviepy
 import logging, os
 from pyrogram import filters
 from datetime import datetime
