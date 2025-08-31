@@ -1,27 +1,19 @@
+asyncio
 uvloop
-# Core
 pyrogram==2.0.106
 tgcrypto==1.2.5
-
-# Downloaders
 yt-dlp==2025.01.08
 aria2p==0.12.0
 gdown==5.2.0
 requests==2.32.3
 urllib3==2.2.3
 certifi==2025.6.2
-
-# Media & utils
 ffmpeg-python==0.2.0
 pillow==10.4.0
 python-magic==0.4.27
-
-# Google APIs (if using Drive API flow)
 google-auth==2.35.0
 google-auth-oauthlib==1.2.1
 google-api-python-client==2.149.0
-
-# Misc
 python-dotenv==1.0.1
 tqdm==4.66.5
 aiofiles==23.2.1
