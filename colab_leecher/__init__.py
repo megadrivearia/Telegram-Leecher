@@ -1,7 +1,7 @@
 # copyright 2023 © Xron Trix | https://github.com/Xrontrix10
 
 import logging, json
-from uvloop import install
+import install
 import asyncio
 import sys
 
