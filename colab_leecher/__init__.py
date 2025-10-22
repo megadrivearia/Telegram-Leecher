@@ -2,6 +2,17 @@
 
 import logging, json
 from uvloop import install
+
+import asyncio
+import uvloop
+
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
+
+uvloop.install()
+
 from pyrogram.client import Client
 
 # Read the dictionary from the txt file
